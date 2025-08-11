@@ -1,9 +1,12 @@
 Titanic Dataset – Exploratory Data Analysis (EDA)
+
 Overview
+-----------
 This project is part of Data Analyst Internship – Task 5.
 The aim was to perform Exploratory Data Analysis (EDA) on the famous Kaggle Titanic dataset to uncover patterns, trends, and key factors that influenced passenger survival.
 
 Dataset
+--------
 Source: Kaggle Titanic Competition
 
 File Used: train.csv
@@ -11,12 +14,14 @@ File Used: train.csv
 Size: 891 rows × 12 columns
 
 Features:
+-----------
 
 Numerical: Age, Fare
 
 Categorical: Sex, Pclass, Embarked
 
 Missing Values:
+---------------
 
 Age – 177 missing entries
 
@@ -25,6 +30,7 @@ Cabin – ~687 missing entries
 Embarked – 2 missing entries
 
 Tools & Libraries
+-----------------
 Python – core programming language
 
 Pandas – data manipulation and cleaning
@@ -34,6 +40,7 @@ Matplotlib – basic visualizations
 Seaborn – advanced statistical plots
 
 What Was Done
+--------------
 1. Data Inspection
 Used .info() and .describe() to get an overview of data types and summary statistics.
 
@@ -67,6 +74,7 @@ Heatmap: Showed strongest correlations between survival and gender, fare, and pa
 Pairplot: Confirmed patterns — clusters of higher survival for females and higher-fare passengers.
 
 Key Findings
+---------------
 Passenger Class: 1st class passengers had the highest survival rates.
 
 Gender: Females survived far more often than males.
@@ -78,6 +86,7 @@ Age: Children had a small advantage in survival.
 Cabin Data: Mostly missing, but could be turned into a binary “Cabin Known” feature.
 
  Conclusion
+ ---------------
  Passenger class, gender, and fare were the most important indicators of survival, with age having a secondary effect.
  These variables are crucial for predictive modeling.
 
